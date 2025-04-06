@@ -1,25 +1,50 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Animals</title>
-	<link rel="icon" type="image/jpg" href="lion.jpg">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin</title>
+    <link rel="icon" type="image/jpg" href="lion.jpg">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
 
+        .content {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .penguin-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .penguin-description {
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
 
-	<p>
-		<div style="text-align:center; margin-top:100px">
-	<img src="penguine.jpg" alt="Penguine">
-	</p>
-
-
-<h1 style="text-align:center;">Penguine</h1>
-	
-	<p style="font-size:20px; text-align:center; line-height: 30px; margin-height: 50px;">
-		Penguins are funny birds that waddle! They can't fly, but they're amazing swimmers. They live in very cold places like Antarctica and have special feathers to keep them warm. Penguins like to eat fish and they often slide on their bellies on the ice, which looks very silly. They also huddle together to stay cozy!
-	</p>
-
+    <div class="content">
+        <img src="penguine.jpg" alt="Penguin" class="penguin-image">
+        <h1>Penguin</h1>
+        <p class="penguin-description">
+            Penguins are funny birds that waddle! They can't fly, but they're amazing swimmers. They live in very cold places like Antarctica and have special feathers to keep them warm. Penguins like to eat fish and they often slide on their bellies on the ice, which looks very silly. They also huddle together to stay cozy!
+        </p>
+    </div>
 
 </body>
 </html>
