@@ -1,25 +1,50 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Animals</title>
-	<link rel="icon" type="image/jpg" href="lion.jpg">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion</title>
+    <link rel="icon" type="image/jpg" href="lion.jpg">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+        }
 
+        .content {
+            text-align: center;
+            max-width: 800px; /* Limit content width for readability */
+            padding: 20px;
+        }
+
+        .lion-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .lion-description {
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
 
-	<p>
-		<div style="text-align:center; margin-top:100px">
-	<img src="lion1.jpg" alt="Lion">
-	</p>
-
-
-<h1 style="text-align:center;">Lion</h1>
-	
-<p style="font-size:20px; text-align:center; line-height: 30px; margin-height: 50px;"> 
-	The lion is a very big and strong cat! It's often called the "king of the jungle." Male lions have big, fluffy hair around their heads called a mane. Lions live in groups, and they like to eat meat. They can roar very loudly, and they are really good hunters.
-</p>
-
+    <div class="content">
+        <img src="lion1.jpg" alt="Lion" class="lion-image">
+        <h1>Lion</h1>
+        <p class="lion-description">
+            The lion is a very big and strong cat! It's often called the "king of the jungle." Male lions have big, fluffy hair around their heads called a mane. Lions live in groups, and they like to eat meat. They can roar very loudly, and they are really good hunters.
+        </p>
+    </div>
 
 </body>
 </html>
