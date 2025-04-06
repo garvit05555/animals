@@ -1,25 +1,50 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Animals</title>
-	<link rel="icon" type="image/jpg" href="lion.jpg">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangaroo</title>
+    <link rel="icon" type="image/jpg" href="lion.jpg">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
 
+        .content {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .kangaroo-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .kangaroo-description {
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
 
-	<p>
-		<div style="text-align:center; margin-top:100px">
-	<img src="kangaroo.jpg" alt="Kangaroo">
-	</p>
-
-
-<h1 style="text-align:center;">Kangaroo</h1>
-	
-	<p style="font-size:20px; text-align:center; line-height: 30px; margin-height: 50px;">
-		Kangaroos are amazing animals that hop! They live in Australia and have strong back legs and big tails that help them jump really far. Baby kangaroos, called joeys, live in their mom's pouch. Kangaroos like to eat plants and can hop very fast to escape danger.
-	</p>
-
+    <div class="content">
+        <img src="kangaroo.jpg" alt="Kangaroo" class="kangaroo-image">
+        <h1>Kangaroo</h1>
+        <p class="kangaroo-description">
+            Kangaroos are amazing animals that hop! They live in Australia and have strong back legs and big tails that help them jump really far. Baby kangaroos, called joeys, live in their mom's pouch. Kangaroos like to eat plants and can hop very fast to escape danger.
+        </p>
+    </div>
 
 </body>
 </html>
